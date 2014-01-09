@@ -1,3 +1,4 @@
+# function decorator
 def outer(fun):
 	def inner(*args, **kwargs):
 		print 'logger'
