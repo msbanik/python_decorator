@@ -10,6 +10,7 @@ class thread:
 
 @thread
 def sum(x, y):
+	print threading.currentThread().getName()
 	print x + y
 
 
