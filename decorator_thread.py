@@ -5,6 +5,7 @@ class thread:
 		self.f = f
 	def __call__(self, *args, **kwargs):
 		t = threading.Thread(target=self.f, args=args)
+		t.setDaemon(True)
 		t.start()
 
 
