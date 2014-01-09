@@ -1,4 +1,4 @@
 python_decorator
 ================
 
-Some useful python decorator
+Some example of python decorators. It's a interesting feature that I should use more.
